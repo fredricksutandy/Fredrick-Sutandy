@@ -193,31 +193,31 @@ color: #f1f1f1;
 }
 
 .container-fluid.dark-bg{
-    background-image: url(./image/dark-line-background.png);
+    background-image: url(../image/dark-line-background.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .job-section{
-    background-image: url(./image/background-job.png) ;
+    background-image: url(../image/background-job.png) ;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .last-footer{
-    background-image: url(./image/last-footer-bg.png);
+    background-image: url(../image/last-footer-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .contact-box{
-    background-image: url(image/footer-bg-desktop.png);
+    background-image: url(../image/footer-bg-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .recent-works{
-    background-image: url(image/recent-work-bg.png);
+    background-image: url(../image/recent-work-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -737,7 +737,7 @@ color: #f1f1f1;
     }
 
     .job-section{
-        background-image: url(image/background-job-mobile.png) ;
+        background-image: url(../image/background-job-mobile.png) ;
         background-size: 100%;
     }
 
@@ -766,12 +766,12 @@ color: #f1f1f1;
     }
 
     .contact-box{
-        background-image: url(image/footer-bg.png);
+        background-image: url(../image/footer-bg.png);
         background-size: contain;
     }
 
     .last-footer{
-        background-image: url(image/last-footer-bg-mobile.png);
+        background-image: url(../image/last-footer-bg-mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -784,7 +784,7 @@ color: #f1f1f1;
         width: 144px !important;
         background-color: transparent !important;
         color: white !important;
-        background-image: url(image/dropdown.svg) !important;
+        background-image: url(../image/dropdown.svg) !important;
         background-size: 12px !important;
     }
 
@@ -806,7 +806,7 @@ color: #f1f1f1;
     }
 
     .background-overlap{
-        background-image: url(image/dark-bg-gradient.png);
+        background-image: url(../image/dark-bg-gradient.png);
 
     }
 }
