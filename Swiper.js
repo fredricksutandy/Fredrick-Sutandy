@@ -92,3 +92,11 @@ const swiper2 = new Swiper('.swiper-second', {
 document.getElementsByClassName(".job-link").addEventListener("click", function(event){
     event.preventDefault()
   });
+
+  $(document).ready(function() {
+    $(".year-item-container-desktop").click(function () {
+        $(".year-item-container-desktop").removeClass("active");
+        // $(".tab").addClass("active"); // instead of this do the below 
+        $(this).addClass("active");   
+    });
+    });
