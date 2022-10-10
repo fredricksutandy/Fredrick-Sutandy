@@ -155,7 +155,7 @@ color: #f1f1f1;
 /* background */
 
 .background-01{
-    background-image: url(image/background.png);
+    background-image: url(./image/background.png);
     background-size: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -193,19 +193,19 @@ color: #f1f1f1;
 }
 
 .container-fluid.dark-bg{
-    background-image: url(image/dark-line-background.png);
+    background-image: url(./image/dark-line-background.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .job-section{
-    background-image: url(image/background-job.png) ;
+    background-image: url(./image/background-job.png) ;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .last-footer{
-    background-image: url(image/last-footer-bg.png);
+    background-image: url(./image/last-footer-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
