@@ -86,6 +86,14 @@
     font-weight: bold;
 }
 
+.contact-footer-btn{
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: white;
+    color: #5468E7;
+    font-weight: bold;
+}
+
 .primary-btn{
     padding: 20px 40px;
     border-radius: 8px;
@@ -115,7 +123,7 @@ top: 0;
 left: 0;
 overflow: hidden;
 transition: 1s;
-background-image: url(image/mobile-menu-bg.png);
+background-image: url(../image/mobile-menu-bg.png);
 background-size: 100%;
 }
 
@@ -155,7 +163,7 @@ color: #f1f1f1;
 /* background */
 
 .background-01{
-    background-image: url(./image/background.png);
+    background-image: url(../image/background.png);
     background-size: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
