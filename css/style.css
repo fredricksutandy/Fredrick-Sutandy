@@ -552,9 +552,7 @@ color: #f1f1f1;
 
 .year-item-container-desktop img{
     opacity: 0;
-    transform: translateX(30px);
-
-
+    transform: translateX(25px);
 }
 
 .contact-box{
