@@ -532,6 +532,9 @@ color: #f1f1f1;
     display: flex;
 }
 
+.nav-item .nav-link:hover{
+    color: #5468E7;
+}
 
 .year-item-container-desktop{
     position: relative;
