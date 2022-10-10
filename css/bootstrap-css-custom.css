@@ -1,0 +1,24 @@
+.navbar-collapse{
+    flex-grow: 0 !important;
+    width: 30%;
+}
+
+.navbar{
+    max-width: 1300px;
+}
+
+.container{
+    max-width: 1175px !important;
+}
+
+.nav-item .nav-link{
+    color: #8B8B8B !important;
+}
+
+.nav-item .active{
+    color: #5468E7 !important;
+}
+
+.navbar-light .navbar-toggler{
+    border: 0 !important;
+}
