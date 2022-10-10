@@ -413,7 +413,7 @@ color: #f1f1f1;
     padding-bottom: 8rem;
 }
 
-.py-8-cust, .py-8-cust-footer{
+.py-8-cust, .py-8-cust-footer, .py-8-cust-special{
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -642,6 +642,11 @@ color: #f1f1f1;
 @media only screen and (max-width: 991px) {
     .desktop-hide{
         display: block !important;
+    }
+
+    .py-8-cust-special{
+        padding-top: 8rem;
+        padding-bottom: 5rem;
     }
 
     .folio-section{
