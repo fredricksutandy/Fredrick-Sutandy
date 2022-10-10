@@ -533,7 +533,7 @@ color: #f1f1f1;
 }
 
 .nav-item .nav-link:hover{
-    color: #5468E7;
+    color: #5468E7 !important;
 }
 
 .year-item-container-desktop{
