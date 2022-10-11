@@ -84,6 +84,7 @@
     background-color: #232340;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .contact-footer-btn{
@@ -92,6 +93,7 @@
     background-color: white;
     color: #5468E7;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .primary-btn{
@@ -100,6 +102,27 @@
     background-color: #5468E7;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+
+    color: white !important;
+}
+
+
+.contact-footer-btn:hover{
+
+    color: #5468E7 !important;
+}
+
+.primary-btn:hover{
+
+    color: white !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
 
 
