@@ -46,7 +46,7 @@
     font-size: 64px;
 }
 
-.f-84{
+.f-84, .f-84-hero{
     font-size: 84px;
 }
 
@@ -797,6 +797,10 @@ color: #f1f1f1;
 
     .f-84{
         font-size: 40px;
+    }
+
+    .f-84-hero{
+        font-size: 48px;
     }
 
     .f-64{
