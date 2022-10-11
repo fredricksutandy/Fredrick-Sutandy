@@ -3,32 +3,25 @@ script.src = 'https://code.jquery.com/jquery-3.6.1.min.js';
 document.getElementsByTagName('head')[0].appendChild(script);
 
 const swiper = new Swiper('.swiper-main', {
-    // Optional parameters
-  
+
       slidesPerView: 1,
       spaceBetween: 40,
       noSwiping: true,
       allowTouchMove: false,
-
-      
 
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next-main',
       prevEl: '.swiper-button-prev-main',
     },
-  
-  
   });
 
 
 
 const swiper2 = new Swiper('.swiper-second', {
-    // Optional parameters
   
       slidesPerView: 'auto',
       spaceBetween: 130,
-      
   
     breakpoints: {
       275:{
@@ -66,18 +59,19 @@ const swiper2 = new Swiper('.swiper-second', {
       slidesPerView: 'auto',
   
       },
-      
   },
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next-second',
       prevEl: '.swiper-button-prev-second',
     },
-  
-  
   });
 
-  $('.valyear').click(swiper,function(){
+
+
+// Navigation pada select input carousel
+
+
+$('.valyear').click(swiper,function(){
     var valyear = $(this).attr('id');
     console.log(valyear)
 
@@ -89,11 +83,19 @@ const swiper2 = new Swiper('.swiper-second', {
     swiper.slideTo(yearval);
 })
 
-// 
 
-  $(document).ready(function() {
-    $(".year-item-container-desktop").click(function () {
-        $(".year-item-container-desktop").removeClass("active");
-        $(this).addClass("active");   
-    });
-    });
+
+
+// hover effect pada job card
+$(document).ready(function() {
+  $(".year-item-container-desktop").click(function () {
+      $(".year-item-container-desktop").removeClass("active");
+      $(this).addClass("active");   
+  });
+});
+
+
+// link tidak merefresh page
+$(a).click(function (event) {
+  event.preventDefault();
+});
