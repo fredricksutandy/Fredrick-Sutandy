@@ -123,8 +123,16 @@
 
 .cursor-pointer{
     cursor: pointer;
+    
 }
 
+.hover-btn:hover{
+    transform: scale(0.98);
+    transition: all ease-in-out 0.3s;
+    -webkit-box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.20);
+-moz-box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.20);
+box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.20);
+}
 
 
 
@@ -379,6 +387,7 @@ color: #f1f1f1;
     border-radius: 40px;
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.09);
     background-color: white;
+    cursor: pointer;
 }
 
 .job-card .f-32{
