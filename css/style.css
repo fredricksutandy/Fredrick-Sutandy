@@ -390,6 +390,11 @@ color: #f1f1f1;
     cursor: pointer;
 }
 
+.job-thumbnail{
+    /* opacity: 0; */
+    display: none;
+}
+
 .job-card .f-32{
     color: #232340;
 }
@@ -426,6 +431,27 @@ color: #f1f1f1;
     display: grid;
     place-items: center;
     border-radius: 50%;
+}
+
+.job-card:hover .f-32{
+    color: white !important;
+}
+
+.job-card:hover .f-18{
+    color: #8B8B8B !important;
+}
+
+.job-card:hover {
+    background-color: #232340;
+}
+
+.job-card:hover .job-thumbnail {
+    /* opacity: 1; */
+    display: flex;
+}
+
+.job-card:hover .arrow-job{
+    filter: invert(100%);
 }
 
 
